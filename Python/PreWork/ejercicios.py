@@ -31,7 +31,6 @@ print(resto)
 # 2. Ejercicio: Dado un número, imprime si es par o impar.
 # 3. Ejercicio: Dado tres números, encuentra y muestra el mayor de ellos.
 
-
 # 1
 numero = int(input("Introduzca un numero: "))
 if numero < 0:
@@ -48,5 +47,8 @@ else:
   print("Es impar")
 
 # 3
+a, b, c = 5, 7, 2
+mayor = max(a, b, c)
+print(mayor)
 
 
